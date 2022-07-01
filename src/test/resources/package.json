@@ -1,7 +1,56 @@
 {
-  "name": "$name$",
-  "version": "$version$",
-  "dependencies": {
-    $END$
-  }
+  "link":[
+    {
+"key": "uyegiris",
+"value": "//*[@class=\"style-scope ytd-button-renderer style-suggestive size-small\"]",
+"type": "xpath"
+},
+ {
+"key": "mail",
+"value": "//*[@type=\"email\"]",
+"type": "xpath"
+},
+    {
+      "key": "password",
+      "value": "//*[@type=\"password\"]",
+      "type": "xpath"
+    }
+  ,
+    {
+      "key": "arama",
+      "value": "//*[@id=\"search-input\"]",
+      "type": "xpath"
+    }  ,
+    {
+      "key": "ara",
+      "value": "//*[@id=\"search-icon-legacy\"]/yt-icon",
+      "type": "xpath"
+    }
+  ,
+    {
+      "key": "ileri",
+      "value": "//*[text()=\"İleri\"]",
+      "type": "xpath"
+    }
+  ,
+    {
+      "key": "videolar",
+      "value": "//*[@id=\"tabsContent\"]/tp-yt-paper-tab[2]/div",
+      "type": "xpath"
+    },
+    {
+      "key": "liste",
+      "value": "//*[@id=\"items\"]/ytd-grid-video-renderer[%]",
+      "type": "xpath"
+    }
+
+  ]
 }
+
+
+
+
+
+
+
+

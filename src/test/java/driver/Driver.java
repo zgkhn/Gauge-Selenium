@@ -9,17 +9,15 @@ public class Driver {
     // Holds the WebDriver instance
     public static WebDriver webDriver;
 
-    // Initialize a webDriver instance of required browser
-    // Since this does not have a significance in the application's business domain, the BeforeSuite hook is used to instantiate the webDriver
+    // Gerekli tarayıcının bir webDriver örneğini başlat
+    // Bunun uygulamanın iş etki alanında bir önemi olmadığından, webDriver'ı başlatmak için BeforeSuite kancası kullanılır
     @BeforeSuite
-    public void initializeDriver(){
-        webDriver = DriverFactory.getDriver();
-    }
+    public void initializeDriver(){webDriver = DriverFactory.getDriver();}
 
     // Close the webDriver instance
     @AfterSuite
     public void closeDriver(){
-        webDriver.quit();
+       // webDriver.quit();
     }
 
 }
