@@ -15,38 +15,57 @@ public class StepImplementation extends komut {
     public void gotoGetStartedPage(String key) throws Exception {
 
         clickkbot(key);
-        log.info(baglantiters(key)+ " Adresine Tıklandı");
 
     }
     @Step("<key> elementine <text> degerini gir")
     public void text(String key,String text) throws Exception {
 
         clickkbot(key,text);
-        log.info(baglantiters(key)+ " Adresine " + text + " Degeri Girildi");
 
     }
     @Step("<key> elementi üzerinde dur")
     public void uzerindedur(String key) throws Exception {
 
         dur(key);
-        log.info(baglantiters(key)+ " Üzerinden Duruldu");
     }
 
-    @Step("Ensure installation instructions are available")
-    public void ensureInstallationInstructionsAreAvailable() throws InterruptedException {
+    @Step("<key> elementini kontrol et")
+    public void kontrol(String key) throws Exception {
 
+
+            kontrolelement(key);
+
+
+
+    }
+    @Step("<key> ürünü favoriye al kaydet")
+    public void kaydet(String key) throws Exception {
+        favorikaydet(key);
     }
 
     @Step("Open Site")
-    public void implementation1() {
+    public void implementation1() throws InterruptedException {
         String app_url = System.getenv("APP_URL");
         Driver.webDriver.get(app_url + "/");
-        assertThat(Driver.webDriver.getTitle()).contains(System.getenv("NAME"));
+    //    webDriver.navigate().refresh();
+     //   Thread.sleep(2000);
+
+
+      //  assertThat(Driver.webDriver.getTitle()).contains(System.getenv("NAME"));
     }
     @Step("Anasayfa test")
     public void anasayfatest() {
         assertThat(Driver.webDriver.getTitle()).contains(System.getenv("NAME"));
     }
+    @Step("bekle")
+    public void bekle() throws InterruptedException {
+        Thread.sleep(2000);
 
-
+    }
+    @Step("test")
+    public void beklse() throws InterruptedException {
+        System.out.println("************************************************");
+        webDriver.navigate().refresh();
+        Thread.sleep(3000);
+    }
 }

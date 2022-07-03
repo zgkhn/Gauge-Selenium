@@ -5,6 +5,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import driver.Driver;
+import driver.link;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -14,9 +16,14 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.time.Duration;
+import java.util.logging.Logger;
 
 public class connect extends Driver {
+
+    private static final Logger log = Logger.getLogger(String.valueOf(StepImplementation.class)); // Log4j logger
+
     public static WebElement baglanti (String istek1) throws Exception {
+
 
         WebElement donus = null;
         try {
@@ -54,13 +61,16 @@ public class connect extends Driver {
         }
         return element;
     }
-    public static boolean kontrolelement(String deger){
+    public static boolean kontrolelement(String deger) throws Exception {
+
         try {
             WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofMillis(10000));
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(deger)));
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(baglantiters(deger))));
+            log.info(deger+ " elementi bulundu");
+
         }catch (Exception e){
 
-            System.out.println("Site acık değil");
+            Assert.fail(deger+" Elementi sayfada bulunamadı");
         }
 
 
@@ -82,8 +92,8 @@ public class connect extends Driver {
                 String value = linkJson.get("value").getAsString();
                 String type = linkJson.get("type").getAsString();
                 //if(key.equals(istek1)){donus = key + "%%" + value + "%%" + type;}
-                if (value.equals(istek1)) {
-                    donus = key;
+                if (key.equals(istek1)) {
+                    donus = value;
                     break;
                 }
             }
@@ -93,7 +103,12 @@ public class connect extends Driver {
         return donus;
     }
 
+    public static void favorikaydet(String deger) throws Exception {
+        String x =  webDriver.findElement(By.xpath(baglantiters(deger)+ baglantiters("isimal"))).getText();
+        webDriver.findElement(By.xpath(baglantiters(deger)+ baglantiters("favoriyeal"))).click();
 
+        link.setText(x);
+    }
 
 //    public static String veri(String istek){
 //        String element = null;

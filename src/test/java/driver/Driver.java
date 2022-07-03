@@ -2,7 +2,6 @@ package driver;
 
 import com.thoughtworks.gauge.AfterSuite;
 import com.thoughtworks.gauge.BeforeSuite;
-import com.thoughtworks.gauge.Logger;
 import org.openqa.selenium.WebDriver;
 
 public class Driver {
@@ -18,7 +17,7 @@ public class Driver {
     // Close the webDriver instance
     @AfterSuite
     public void closeDriver(){
-       // webDriver.quit();
+        webDriver.quit();
     }
 
 }

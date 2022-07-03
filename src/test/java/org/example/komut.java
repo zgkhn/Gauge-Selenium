@@ -11,16 +11,18 @@ public class komut extends connect{
 
     public void clickkbot(String key) throws Exception {
         baglanti(key).click();
+        log.info(key+ " Adresine Tıklandı");
+
     }
     public void clickkbot(String key,String key1) throws Exception {
         baglanti(key).sendKeys(key1);
-        log.info(baglantiters(key)+ " Adresine " + key1 + " Degeri Girildi");
+        log.info(key+ " Adresine " + key1 + " Degeri Girildi");
     }
 
     public void dur(String key) throws Exception {
         Actions action = new Actions(webDriver);
-        action.moveToElement(baglanti(key)).perform();
-
+        action.moveToElement(baglanti(key)).build().perform();
+        log.info(key+ " Üzerinden Duruldu");
 
     }
 

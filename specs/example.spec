@@ -6,13 +6,37 @@ To execute this specification, use `mvn test`
 
 * Open Site
 
+Hatalı Login
+-----------
+* test
+* "singin" elementi üzerinde dur
+* "singinlink" elementine tıkla
+* "mail" elementine "gkhnznkldk@gmail.com" degerini gir
+* "password" elementine "Adenemesss" degerini gir
+* "giris" elementine tıkla
+* "hata" elementini kontrol et
+* "ok" elementine tıkla
+
+
+
 Login
 -----------
-* "uyegiris" elementine tıkla
-* "mail" elementine "gokhanzinkildak@gmail.com" degerini gir
-* "ileri" elementine tıkla
+* "singin" elementi üzerinde dur
+* "singinlink" elementine tıkla
+* "mail" elementine "gkhnznkldk@gmail.com" degerini gir
 * "password" elementine "Ad1n1k0ym4" degerini gir
-* "ileri" elementine tıkla
-* "arama" elementine "cengiz özbayoglu" degerini gir
-* "ara" elementine tıkla
+* "giris" elementine tıkla
+* "myaccount" elementini kontrol et
+
+
+
+My Favorites
+-----------
+* test
+* "myaccount" elementini kontrol et
+* "myfavorites" elementine tıkla
+* "myfavoritesbos" elementini kontrol et
+* "ara" elementine "rose" degerini gir
+* "aratik" elementine tıkla
+* "1urunfavoriyeal" elementine tıkla
 

@@ -1,0 +1,46 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 1536milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1536"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 59519"}
+{"logLevel":"info","message":"Listening on port:59519"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.ensureInstallationInstructionsAreAvailable' and 'org.example.StepImplementation.ensureInstallationInstructionsAreAvailable'"}
+{"logLevel":"debug","message":"Found Ensure installation instructions are available in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.implementation1' and 'org.example.StepImplementation.implementation1'"}
+{"logLevel":"debug","message":"Found Open Site in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.text' and 'org.example.StepImplementation.text'"}
+{"logLevel":"debug","message":"Found {} elementine {} degerini gir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.gotoGetStartedPage' and 'org.example.StepImplementation.gotoGetStartedPage'"}
+{"logLevel":"debug","message":"Found {} elementine týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.uzerindedur' and 'org.example.StepImplementation.uzerindedur'"}
+{"logLevel":"debug","message":"Found {} elementi üzerinde dur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.anasayfatest' and 'org.example.StepImplementation.anasayfatest'"}
+{"logLevel":"debug","message":"Found Anasayfa test in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} elementi üzerinde dur : public void uzerindedur(String key) throws Exception"}
+{"logLevel":"debug","message":"\t{} elementine týkla : public void gotoGetStartedPage(String key) throws Exception"}
+{"logLevel":"debug","message":"\t{} elementine {} degerini gir : public void text(String key, String text) throws Exception"}
+{"logLevel":"debug","message":"\tAnasayfa test : public void anasayfatest()"}
+{"logLevel":"debug","message":"\tEnsure installation instructions are available : public void ensureInstallationInstructionsAreAvailable() throws InterruptedException"}
+{"logLevel":"debug","message":"\tOpen Site : public void implementation1()"}
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 57586
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Tem 01, 2022 10:59:55 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Tem 01, 2022 10:59:55 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 103, so returning the closest version found: 102
+Tem 01, 2022 10:59:55 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 103 of 102
+{"logLevel":"debug","message":"Executing 'Open Site' using 'class org.example.StepImplementation.implementation1"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

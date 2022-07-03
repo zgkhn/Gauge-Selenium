@@ -1,49 +1,89 @@
 {
   "link":[
     {
-"key": "uyegiris",
-"value": "//*[@class=\"style-scope ytd-button-renderer style-suggestive size-small\"]",
+"key": "singin",
+"value": "/html/body/div[2]/div[3]/div/div[4]/nav/ul/li[3]/a/span[2]",
 "type": "xpath"
 },
  {
-"key": "mail",
-"value": "//*[@type=\"email\"]",
+"key": "singinlink",
+"value": "/html/body/div[2]/div[3]/div/div[4]/nav/ul/li[3]/div[1]/div/a[1]/span",
 "type": "xpath"
 },
     {
       "key": "password",
-      "value": "//*[@type=\"password\"]",
+      "value": "//*[@id=\"Password\"]",
       "type": "xpath"
     }
   ,
     {
-      "key": "arama",
-      "value": "//*[@id=\"search-input\"]",
+      "key": "mail",
+      "value": "//*[@id=\"EmailLogin\"]",
       "type": "xpath"
     }  ,
     {
+      "key": "giris",
+      "value": "//*[@class=\"btn btn-primary btn-lg pull-right login__btn js-login-button\"]",
+      "type": "xpath"
+    }
+  ,
+    {
       "key": "ara",
-      "value": "//*[@id=\"search-icon-legacy\"]/yt-icon",
+      "value": "//*[@class=\"form-control product-search__input js-product-search-input js-illegal-characters\"][@data-module-id=\"1\"]",
       "type": "xpath"
     }
   ,
     {
-      "key": "ileri",
-      "value": "//*[text()=\"İleri\"]",
-      "type": "xpath"
-    }
-  ,
-    {
-      "key": "videolar",
-      "value": "//*[@id=\"tabsContent\"]/tp-yt-paper-tab[2]/div",
+      "key": "logo",
+      "value": "//*[@class=\"container container--main-menu js-navigasyon-container\"]//*[@class=\"site-logo__img\"][@alt=\"Mizu Logo\"]",
       "type": "xpath"
     },
     {
-      "key": "liste",
-      "value": "//*[@id=\"items\"]/ytd-grid-video-renderer[%]",
+      "key": "popup",
+      "value": "/html/body/div[4]/div[1]/span",
+      "type": "xpath"
+    }, {
+      "key": "aratik",
+      "value": "//*[@id=\"product-search-1\"]//*[@class=\"icon-search-444\"]",
+      "type": "xpath"
+    },
+    {
+      "key": "myaccount",
+      "value": "/html/body/div[2]/div[3]/div/div[4]/nav/ul/li[4]/a/span[2]",
+      "type": "xpath"
+    }, {
+      "key": "hata",
+      "value": "//*[@class=\"modal-body\"]",
+      "type": "xpath"
+    },{
+      "key": "ok",
+      "value": "//*[@class=\"btn btn-primary\"]",
+      "type": "xpath"
+    },{
+      "key": "myaccounttik",
+      "value": "//*[@class=\"container\"]//*[@class=\"user-process__submenu-link\"][text()=\"My Account\"]",
+      "type": "xpath"
+    },{
+      "key": "myfavorites",
+      "value": "//*[@class=\"header__top js-window-menu\"]//*[@class=\"user-menu__title\"][text()=\"My Favorites\"]",
+      "type": "xpath"
+    },{
+      "key": "myfavoritesbos",
+      "value": "//*[@class=\"btn btn-lg btn-primary favorite__not-btn\"]",
+      "type": "xpath"
+    },{
+      "key": "1urun",
+      "value": "//*[@class=\"products products--category js-ajax-category-products\"]/div[1]",
+      "type": "xpath"
+    },{
+      "key": "favoriyeal",
+      "value": "//*[@class=\"icon-favorite-border js-stop-productClick-event\"]",
+      "type": "xpath"
+    },{
+      "key": "isimal",
+      "value": "//*[@class=\"products__item-title\"]",
       "type": "xpath"
     }
-
   ]
 }
 
