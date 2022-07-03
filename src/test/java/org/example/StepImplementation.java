@@ -25,7 +25,6 @@ public class StepImplementation extends komut {
     }
     @Step("<key> elementi üzerinde dur")
     public void uzerindedur(String key) throws Exception {
-
         dur(key);
     }
 

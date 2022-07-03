@@ -23,6 +23,7 @@ public class connect extends Driver {
     private static final Logger log = Logger.getLogger(String.valueOf(StepImplementation.class)); // Log4j logger
 
     public static WebElement baglanti (String istek1) throws Exception {
+        Thread.sleep(500);
 
 
         WebElement donus = null;

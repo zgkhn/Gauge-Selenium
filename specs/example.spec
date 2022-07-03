@@ -33,6 +33,13 @@ Login
 My Favorites
 -----------
 * test
+
+* "singin" elementi üzerinde dur
+* "singinlink" elementine tıkla
+* "mail" elementine "gkhnznkldk@gmail.com" degerini gir
+* "password" elementine "Ad1n1k0ym4" degerini gir
+* "giris" elementine tıkla
+* "myaccount" elementini kontrol et
 * "myaccount" elementini kontrol et
 * "myfavorites" elementine tıkla
 * "myfavoritesbos" elementini kontrol et

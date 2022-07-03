@@ -29,7 +29,7 @@
   ,
     {
       "key": "ara",
-      "value": "//*[@class=\"form-control product-search__input js-product-search-input js-illegal-characters\"][@data-module-id=\"1\"]",
+      "value": "//*[@class=\"form-control product-search__input js-product-search-input js-illegal-characters\"][@data-module-id=\"0\"]",
       "type": "xpath"
     }
   ,
@@ -44,7 +44,7 @@
       "type": "xpath"
     }, {
       "key": "aratik",
-      "value": "//*[@id=\"product-search-1\"]//*[@class=\"icon-search-444\"]",
+      "value": "//*[@class=\"container\"]//*[@class=\"icon-search-444\"]",
       "type": "xpath"
     },
     {

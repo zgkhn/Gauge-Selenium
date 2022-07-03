@@ -17,7 +17,7 @@ public class Driver {
     // Close the webDriver instance
     @AfterSuite
     public void closeDriver(){
-        webDriver.quit();
+       // webDriver.quit();
     }
 
 }
