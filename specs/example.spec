@@ -39,7 +39,6 @@ My Favorites
 * "giris" elementine tıkla
 * "myaccount" elementini kontrol et
 * "myfavorites" elementine tıkla
-* "myfavoritesbos" elementini kontrol et
 * "ara" elementine "rose" degerini gir
 * "aratik" elementine tıkla
 * rasgele bir ürünü favoriye al kaydet
