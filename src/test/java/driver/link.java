@@ -4,7 +4,7 @@ public class link {
 
     private static String text;
 
-    public String getText() {
+    public static String getText() {
         return text;
     }
 

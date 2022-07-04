@@ -16,6 +16,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.time.Duration;
+import java.util.List;
+import java.util.Random;
 import java.util.logging.Logger;
 
 public class connect extends Driver {
@@ -104,11 +106,39 @@ public class connect extends Driver {
         return donus;
     }
 
-    public static void favorikaydet(String deger) throws Exception {
-        String x =  webDriver.findElement(By.xpath(baglantiters(deger)+ baglantiters("isimal"))).getText();
-        webDriver.findElement(By.xpath(baglantiters(deger)+ baglantiters("favoriyeal"))).click();
+    public static void favorikaydet() throws Exception {
 
-        link.setText(x);
+        List<WebElement> elements = webDriver.findElements(By.xpath("//*[@class=\"products products--category js-ajax-category-products\"]/div"));
+        Random rastgele = new Random();
+        int x = 1 + elements.size();
+        int sayi = rastgele.nextInt(x);
+        webDriver.findElement(By.xpath("//*[@class=\"products products--category js-ajax-category-products\"]/div["+sayi+"]//*[@class=\"icon-favorite-border js-stop-productClick-event\"]")).click();
+        link.setText(webDriver.findElement(By.xpath("//*[@class=\"products products--category js-ajax-category-products\"]/div["+sayi+"]//*[@class=\"products__item-title\"]")).getText());
+
+    }
+    public static void  urunkontrol(){
+        //*[@class="products products--favorites"]//*[@class="products__item-title"]
+        int durum = 0;
+        List<WebElement> elements = webDriver.findElements(By.xpath("//*[@class=\"products products--favorites\"]"));
+        System.out.printf(link.getText());
+        System.out.printf("1111111111111111111111111111111111111111111111111111");
+        for (int i = 0; i < elements.size(); i++) {
+            int b = i +1;
+
+            String isim = String.valueOf(webDriver.findElements(By.xpath("//*[@class=\"products products--favorites\"]/div["+b+"]//*[@class=\"products__item-title\"]")));
+            if (link.getText().equals(isim)) {
+                log.info("favori ürün "+ link.getText()+ "bulundu");
+                durum = 1;
+                webDriver.findElement(By.xpath("//*[@class=\"products products--favorites\"]/div["+b+"]//*[@class=\"icon-favorite-border js-stop-productClick-event\"]")).click();
+                break;
+            }
+        }
+//        if (durum == 1) {
+//            log.info("favori ürün "+ link.getText()+ "bulundu");
+//        }else  {
+//            Assert.fail(link.getText()+" Elementi sayfada bulunamadı");
+//        }
+
     }
 
 //    public static String veri(String istek){
@@ -133,4 +163,4 @@ public class connect extends Driver {
 //    }
 
 
-}
+    }

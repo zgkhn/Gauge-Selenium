@@ -73,7 +73,7 @@
       "type": "xpath"
     },{
       "key": "1urun",
-      "value": "//*[@class=\"products products--category js-ajax-category-products\"]/div[1]",
+      "value": "//*[@class=\"products products--category js-ajax-category-products\"]/div[%%]",
       "type": "xpath"
     },{
       "key": "favoriyeal",

@@ -37,9 +37,13 @@ public class StepImplementation extends komut {
 
 
     }
-    @Step("<key> ürünü favoriye al kaydet")
-    public void kaydet(String key) throws Exception {
-        favorikaydet(key);
+    @Step("rasgele bir ürünü favoriye al kaydet")
+    public void kaydet() throws Exception {
+        favorikaydet();
+    }
+    @Step("favori ürünü kontrol et ve sil")
+    public void kontrolet() throws Exception {
+        urunkontrol();
     }
 
     @Step("Open Site")
