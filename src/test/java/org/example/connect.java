@@ -39,7 +39,6 @@ public class connect extends Driver {
                 String key = linkJson.get("key").getAsString();
                 String value = linkJson.get("value").getAsString();
                 String type = linkJson.get("type").getAsString();
-                //if(key.equals(istek1)){donus = key + "%%" + value + "%%" + type;}
                 if (key.equals(istek1)) {
                    donus = kontrol(By.xpath(value));
                    break;
@@ -94,7 +93,6 @@ public class connect extends Driver {
                 String key = linkJson.get("key").getAsString();
                 String value = linkJson.get("value").getAsString();
                 String type = linkJson.get("type").getAsString();
-                //if(key.equals(istek1)){donus = key + "%%" + value + "%%" + type;}
                 if (key.equals(istek1)) {
                     donus = value;
                     break;
@@ -117,11 +115,8 @@ public class connect extends Driver {
 
     }
     public static void  urunkontrol(){
-        //*[@class="products products--favorites"]//*[@class="products__item-title"]
         int durum = 0;
         List<WebElement> elements = webDriver.findElements(By.xpath("//*[@class=\"products products--favorites\"]"));
-        System.out.printf(link.getText());
-        System.out.printf("1111111111111111111111111111111111111111111111111111");
         for (int i = 0; i < elements.size(); i++) {
             int b = i +1;
 
@@ -133,34 +128,6 @@ public class connect extends Driver {
                 break;
             }
         }
-//        if (durum == 1) {
-//            log.info("favori ürün "+ link.getText()+ "bulundu");
-//        }else  {
-//            Assert.fail(link.getText()+" Elementi sayfada bulunamadı");
-//        }
 
     }
-
-//    public static String veri(String istek){
-//        String element = null;
-//        try {
-//            System.out.println("**************");
-//                if(baglanti(istek) != null){
-//                    System.out.println(baglanti(istek));
-//                    System.out.println(baglanti(istek).split("%%")[0]);
-//                    System.out.println(baglanti(istek).split("%%")[1]);
-//                    System.out.println(baglanti(istek).split("%%")[2]);
-//                }else {
-//                    System.out.println("bulamadi");
-//                }
-//
-//        }catch (Exception e){
-//
-//            System.out.println("hata : "+ e );
-//
-//        }
-//        return element;
-//    }
-
-
-    }
+}

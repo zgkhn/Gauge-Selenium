@@ -11,33 +11,21 @@ Hatalı Login
 -----------
 * "singin" elementi üzerinde dur
 * "singinlink" elementine tıkla
-* "mail" elementine "gkhnznkldk@gmail.com" degerini gir
-* "password" elementine "Adenemesss" degerini gir
+* "mail" elementine "mail@gmail.com" degerini gir
+* "password" elementine "123456789" degerini gir
 * "giris" elementine tıkla
 * "hata" elementini kontrol et
 * "ok" elementine tıkla
 
-
-
 Login
 -----------
-* "singin" elementi üzerinde dur
-* "singinlink" elementine tıkla
-* "mail" elementine "gkhnznkldk@gmail.com" degerini gir
-* "password" elementine "Ad1n1k0ym4" degerini gir
-* "giris" elementine tıkla
-* "myaccount" elementini kontrol et
+*Login
 
 
 
 My Favorites
 -----------
-* "singin" elementi üzerinde dur
-* "singinlink" elementine tıkla
-* "mail" elementine "gkhnznkldk@gmail.com" degerini gir
-* "password" elementine "Ad1n1k0ym4" degerini gir
-* "giris" elementine tıkla
-* "myaccount" elementini kontrol et
+* Login
 * "myfavorites" elementine tıkla
 * "ara" elementine "rose" degerini gir
 * "aratik" elementine tıkla
@@ -45,4 +33,3 @@ My Favorites
 * "myfavorites" elementine tıkla
 * favori ürünü kontrol et ve sil
 * bekle
-

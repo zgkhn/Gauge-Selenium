@@ -1,9 +1,7 @@
 package driver;
 
 import com.thoughtworks.gauge.AfterScenario;
-import com.thoughtworks.gauge.AfterSuite;
 import com.thoughtworks.gauge.BeforeScenario;
-import com.thoughtworks.gauge.BeforeSuite;
 import org.openqa.selenium.WebDriver;
 
 public class Driver {

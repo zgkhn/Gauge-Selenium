@@ -50,11 +50,7 @@ public class StepImplementation extends komut {
     public void implementation1() throws InterruptedException {
         String app_url = System.getenv("APP_URL");
         Driver.webDriver.get(app_url + "/");
-    //    webDriver.navigate().refresh();
-     //   Thread.sleep(2000);
 
-
-      //  assertThat(Driver.webDriver.getTitle()).contains(System.getenv("NAME"));
     }
     @Step("Anasayfa test")
     public void anasayfatest() {
@@ -69,6 +65,6 @@ public class StepImplementation extends komut {
     public void beklse() throws InterruptedException {
         System.out.println("************************************************");
         webDriver.navigate().refresh();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
     }
 }

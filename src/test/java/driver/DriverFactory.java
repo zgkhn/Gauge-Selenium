@@ -28,13 +28,13 @@ public class DriverFactory {
             default:
                 WebDriverManager.chromedriver().setup();
 
-	            ChromeOptions options = new ChromeOptions();
-	            if ("Y".equalsIgnoreCase(System.getenv("HEADLESS"))) {
-	                options.addArguments("--headless");
-	                options.addArguments("--disable-gpu");
-	            }
+                ChromeOptions options = new ChromeOptions();
+                if ("Y".equalsIgnoreCase(System.getenv("HEADLESS"))) {
+                    options.addArguments("--headless");
+                    options.addArguments("--disable-gpu");
+                }
 
-	            return new ChromeDriver(options);
+                return new ChromeDriver(options);
         }
     }
 }
