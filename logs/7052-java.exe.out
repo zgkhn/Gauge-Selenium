@@ -1,0 +1,117 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 881milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 881"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 49220"}
+{"logLevel":"info","message":"Listening on port:49220"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.bekle' and 'org.example.StepImplementation.bekle'"}
+{"logLevel":"debug","message":"Found bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.implementation1' and 'org.example.StepImplementation.implementation1'"}
+{"logLevel":"debug","message":"Found Open Site in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.kaydet' and 'org.example.StepImplementation.kaydet'"}
+{"logLevel":"debug","message":"Found rasgele bir ürünü favoriye al kaydet in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.text' and 'org.example.StepImplementation.text'"}
+{"logLevel":"debug","message":"Found {} elementine {} degerini gir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.gotoGetStartedPage' and 'org.example.StepImplementation.gotoGetStartedPage'"}
+{"logLevel":"debug","message":"Found {} elementine týkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.uzerindedur' and 'org.example.StepImplementation.uzerindedur'"}
+{"logLevel":"debug","message":"Found {} elementi üzerinde dur in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.anasayfatest' and 'org.example.StepImplementation.anasayfatest'"}
+{"logLevel":"debug","message":"Found Anasayfa test in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.kontrol' and 'org.example.StepImplementation.kontrol'"}
+{"logLevel":"debug","message":"Found {} elementini kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.beklse' and 'org.example.StepImplementation.beklse'"}
+{"logLevel":"debug","message":"Found test in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.kontrolet' and 'org.example.StepImplementation.kontrolet'"}
+{"logLevel":"debug","message":"Found favori ürünü kontrol et ve sil in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} elementi üzerinde dur : public void uzerindedur(String key) throws Exception"}
+{"logLevel":"debug","message":"\ttest : public void beklse() throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} elementine týkla : public void gotoGetStartedPage(String key) throws Exception"}
+{"logLevel":"debug","message":"\tbekle : public void bekle() throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} elementine {} degerini gir : public void text(String key, String text) throws Exception"}
+{"logLevel":"debug","message":"\t{} elementini kontrol et : public void kontrol(String key) throws Exception"}
+{"logLevel":"debug","message":"\tAnasayfa test : public void anasayfatest()"}
+{"logLevel":"debug","message":"\trasgele bir ürünü favoriye al kaydet : public void kaydet() throws Exception"}
+{"logLevel":"debug","message":"\tOpen Site : public void implementation1() throws InterruptedException"}
+{"logLevel":"debug","message":"\tfavori ürünü kontrol et ve sil : public void kontrolet() throws Exception"}
+Aðu 29, 2022 11:54:24 ÖS org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+Aðu 29, 2022 11:54:39 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+{"logLevel":"debug","message":"Executing 'Open Site' using 'class org.example.StepImplementation.implementation1"}
+{"logLevel":"debug","message":"Executing 'test' using 'class org.example.StepImplementation.beklse"}
+************************************************
+{"logLevel":"debug","message":"Executing '{} elementi üzerinde dur' using 'class org.example.StepImplementation.uzerindedur"}
+Aðu 29, 2022 11:54:46 ÖS org.example.komut dur
+INFO: singin Üzerinden Duruldu
+{"logLevel":"debug","message":"Executing '{} elementine týkla' using 'class org.example.StepImplementation.gotoGetStartedPage"}
+Aðu 29, 2022 11:54:48 ÖS org.example.komut clickkbot
+INFO: singinlink Adresine Týklandý
+{"logLevel":"debug","message":"Executing '{} elementine {} degerini gir' using 'class org.example.StepImplementation.text"}
+Aðu 29, 2022 11:54:48 ÖS org.example.komut clickkbot
+INFO: mail Adresine mail@gmail.com Degeri Girildi
+{"logLevel":"debug","message":"Executing '{} elementine {} degerini gir' using 'class org.example.StepImplementation.text"}
+Aðu 29, 2022 11:54:49 ÖS org.example.komut clickkbot
+INFO: password Adresine 123456789 Degeri Girildi
+{"logLevel":"debug","message":"Executing '{} elementine týkla' using 'class org.example.StepImplementation.gotoGetStartedPage"}
+Aðu 29, 2022 11:54:49 ÖS org.example.komut clickkbot
+INFO: giris Adresine Týklandý
+{"logLevel":"debug","message":"Executing '{} elementini kontrol et' using 'class org.example.StepImplementation.kontrol"}
+Aðu 29, 2022 11:54:50 ÖS org.example.connect kontrolelement
+INFO: hata elementi bulundu
+{"logLevel":"debug","message":"Executing '{} elementine týkla' using 'class org.example.StepImplementation.gotoGetStartedPage"}
+Aðu 29, 2022 11:54:50 ÖS org.example.komut clickkbot
+INFO: ok Adresine Týklandý
+Aðu 29, 2022 11:54:54 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+{"logLevel":"debug","message":"Executing 'Open Site' using 'class org.example.StepImplementation.implementation1"}
+{"logLevel":"debug","message":"Executing 'test' using 'class org.example.StepImplementation.beklse"}
+************************************************
+{"logLevel":"debug","message":"Executing '{} elementi üzerinde dur' using 'class org.example.StepImplementation.uzerindedur"}
+Aðu 29, 2022 11:55:00 ÖS org.example.komut dur
+INFO: singin Üzerinden Duruldu
+{"logLevel":"debug","message":"Executing '{} elementine týkla' using 'class org.example.StepImplementation.gotoGetStartedPage"}
+Aðu 29, 2022 11:55:02 ÖS org.example.komut clickkbot
+INFO: singinlink Adresine Týklandý
+{"logLevel":"debug","message":"Executing '{} elementine {} degerini gir' using 'class org.example.StepImplementation.text"}
+Aðu 29, 2022 11:55:02 ÖS org.example.komut clickkbot
+INFO: mail Adresine mail@gmail.com Degeri Girildi
+{"logLevel":"debug","message":"Executing '{} elementine {} degerini gir' using 'class org.example.StepImplementation.text"}
+Aðu 29, 2022 11:55:03 ÖS org.example.komut clickkbot
+INFO: password Adresine 123456789 Degeri Girildi
+{"logLevel":"debug","message":"Executing '{} elementine týkla' using 'class org.example.StepImplementation.gotoGetStartedPage"}
+Aðu 29, 2022 11:55:04 ÖS org.example.komut clickkbot
+INFO: giris Adresine Týklandý
+{"logLevel":"debug","message":"Executing '{} elementini kontrol et' using 'class org.example.StepImplementation.kontrol"}
+Aðu 29, 2022 11:55:24 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+{"logLevel":"debug","message":"Executing 'Open Site' using 'class org.example.StepImplementation.implementation1"}
+{"logLevel":"debug","message":"Executing 'test' using 'class org.example.StepImplementation.beklse"}
+************************************************
+{"logLevel":"debug","message":"Executing '{} elementi üzerinde dur' using 'class org.example.StepImplementation.uzerindedur"}
+Aðu 29, 2022 11:55:30 ÖS org.example.komut dur
+INFO: singin Üzerinden Duruldu
+{"logLevel":"debug","message":"Executing '{} elementine týkla' using 'class org.example.StepImplementation.gotoGetStartedPage"}
+Aðu 29, 2022 11:55:33 ÖS org.example.komut clickkbot
+INFO: singinlink Adresine Týklandý
+{"logLevel":"debug","message":"Executing '{} elementine {} degerini gir' using 'class org.example.StepImplementation.text"}
+Aðu 29, 2022 11:55:33 ÖS org.example.komut clickkbot
+INFO: mail Adresine mail@gmail.com Degeri Girildi
+{"logLevel":"debug","message":"Executing '{} elementine {} degerini gir' using 'class org.example.StepImplementation.text"}
+Aðu 29, 2022 11:55:34 ÖS org.example.komut clickkbot
+INFO: password Adresine 123456789 Degeri Girildi
+{"logLevel":"debug","message":"Executing '{} elementine týkla' using 'class org.example.StepImplementation.gotoGetStartedPage"}
+Aðu 29, 2022 11:55:34 ÖS org.example.komut clickkbot
+INFO: giris Adresine Týklandý
+{"logLevel":"debug","message":"Executing '{} elementini kontrol et' using 'class org.example.StepImplementation.kontrol"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

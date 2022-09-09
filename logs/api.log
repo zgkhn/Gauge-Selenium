@@ -1,0 +1,435 @@
+29-08-2022 22:59:06.456 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+29-08-2022 22:59:06.456 [Gauge] [DEBUG] Adding concepts from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+29-08-2022 22:59:06.460 [Gauge] [INFO] Initializing specs cache with 1 specs
+29-08-2022 22:59:06.460 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example.spec
+29-08-2022 22:59:06.460 [Gauge] [INFO] Initializing steps cache with 2 steps
+29-08-2022 22:59:06.460 [Gauge] [INFO] Gauge daemon initialized and listening on port: 63394
+29-08-2022 22:59:06.461 [Gauge] [DEBUG] Watching directory: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs
+29-08-2022 22:59:06.461 [Gauge] [DEBUG] Found 2 files
+29-08-2022 23:35:41.573 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"singin\" elementi üzerinde dur"}
+29-08-2022 23:35:41.574 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementi üzerinde dur"  parameterizedStepValue:"<singin> elementi üzerinde dur"  parameters:"singin"}}
+29-08-2022 23:35:41.579 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine tıkla"}
+29-08-2022 23:35:41.580 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<key> elementine tıkla"  parameters:"key"}}
+29-08-2022 23:35:41.580 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine <text> degerini gir"}
+29-08-2022 23:35:41.580 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<key> elementine <text> degerini gir"  parameters:"key"  parameters:"text"}}
+29-08-2022 23:35:41.580 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementi üzerinde dur"}
+29-08-2022 23:35:41.580 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementi üzerinde dur"  parameterizedStepValue:"<key> elementi üzerinde dur"  parameters:"key"}}
+29-08-2022 23:35:41.580 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"singinlink\" elementine tıkla"}
+29-08-2022 23:35:41.580 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<singinlink> elementine tıkla"  parameters:"singinlink"}}
+29-08-2022 23:35:41.580 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@gmail.com\" degerini gir"}
+29-08-2022 23:35:41.581 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@gmail.com> degerini gir"  parameters:"mail"  parameters:"mail@gmail.com"}}
+29-08-2022 23:35:41.581 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"123456789\" degerini gir"}
+29-08-2022 23:35:41.581 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <123456789> degerini gir"  parameters:"password"  parameters:"123456789"}}
+29-08-2022 23:35:41.581 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"giris\" elementine tıkla"}
+29-08-2022 23:35:41.582 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<giris> elementine tıkla"  parameters:"giris"}}
+29-08-2022 23:35:41.582 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"myaccount\" elementini kontrol et"}
+29-08-2022 23:35:41.582 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<myaccount> elementini kontrol et"  parameters:"myaccount"}}
+29-08-2022 23:35:41.582 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementini kontrol et"}
+29-08-2022 23:35:41.582 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<key> elementini kontrol et"  parameters:"key"}}
+29-08-2022 23:35:43.111 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Open Site"}
+29-08-2022 23:35:43.111 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Open Site"  parameterizedStepValue:"Open Site"}}
+29-08-2022 23:35:43.111 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"rasgele bir ürünü favoriye al kaydet"}
+29-08-2022 23:35:43.111 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"rasgele bir ürünü favoriye al kaydet"  parameterizedStepValue:"rasgele bir ürünü favoriye al kaydet"}}
+29-08-2022 23:35:43.112 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"favori ürünü kontrol et ve sil"}
+29-08-2022 23:35:43.112 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"favori ürünü kontrol et ve sil"  parameterizedStepValue:"favori ürünü kontrol et ve sil"}}
+29-08-2022 23:35:43.113 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"test"}
+29-08-2022 23:35:43.113 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"test"  parameterizedStepValue:"test"}}
+29-08-2022 23:35:43.114 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Anasayfa test"}
+29-08-2022 23:35:43.114 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Anasayfa test"  parameterizedStepValue:"Anasayfa test"}}
+29-08-2022 23:35:43.114 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"bekle"}
+29-08-2022 23:35:43.114 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"bekle"  parameterizedStepValue:"bekle"}}
+29-08-2022 23:35:43.117 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"hata\" elementini kontrol et"}
+29-08-2022 23:35:43.117 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<hata> elementini kontrol et"  parameters:"hata"}}
+29-08-2022 23:35:43.118 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ok\" elementine tıkla"}
+29-08-2022 23:35:43.118 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<ok> elementine tıkla"  parameters:"ok"}}
+29-08-2022 23:35:43.118 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Login"}
+29-08-2022 23:35:43.118 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Login"  parameterizedStepValue:"Login"}}
+29-08-2022 23:35:43.141 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Login"}
+29-08-2022 23:35:43.141 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Login"  parameterizedStepValue:"Login"}}
+29-08-2022 23:35:43.141 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"myfavorites\" elementine tıkla"}
+29-08-2022 23:35:43.141 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<myfavorites> elementine tıkla"  parameters:"myfavorites"}}
+29-08-2022 23:35:43.142 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ara\" elementine \"rose\" degerini gir"}
+29-08-2022 23:35:43.142 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<ara> elementine <rose> degerini gir"  parameters:"ara"  parameters:"rose"}}
+29-08-2022 23:35:43.142 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"aratik\" elementine tıkla"}
+29-08-2022 23:35:43.142 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<aratik> elementine tıkla"  parameters:"aratik"}}
+30-08-2022 00:26:32.715 [Gauge] [DEBUG] Concept file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+30-08-2022 00:26:32.717 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example.spec
+30-08-2022 00:46:16.168 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:46:16.171 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:46:16.171 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:46:32.980 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:46:32.981 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:53:51.998 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:53:52.005 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:54:09.548 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:54:09.549 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:54:32.934 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:54:32.940 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:55:46.772 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:55:46.777 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:56:14.838 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"s\" degerini gir"}
+30-08-2022 00:56:14.838 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <s> degerini gir"  parameters:"password"  parameters:"s"}}
+30-08-2022 00:56:14.925 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"sd\" degerini gir"}
+30-08-2022 00:56:14.925 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <sd> degerini gir"  parameters:"password"  parameters:"sd"}}
+30-08-2022 00:56:15.068 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"sds\" degerini gir"}
+30-08-2022 00:56:15.068 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <sds> degerini gir"  parameters:"password"  parameters:"sds"}}
+30-08-2022 00:56:17.212 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@s.com\" degerini gir"}
+30-08-2022 00:56:17.212 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@s.com> degerini gir"  parameters:"mail"  parameters:"mail@s.com"}}
+30-08-2022 00:56:17.221 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@sd.com\" degerini gir"}
+30-08-2022 00:56:17.222 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@sd.com> degerini gir"  parameters:"mail"  parameters:"mail@sd.com"}}
+30-08-2022 00:56:17.382 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@sds.com\" degerini gir"}
+30-08-2022 00:56:17.382 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@sds.com> degerini gir"  parameters:"mail"  parameters:"mail@sds.com"}}
+30-08-2022 00:56:17.493 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@sdsd.com\" degerini gir"}
+30-08-2022 00:56:17.494 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@sdsd.com> degerini gir"  parameters:"mail"  parameters:"mail@sdsd.com"}}
+30-08-2022 00:56:17.614 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@sdsds.com\" degerini gir"}
+30-08-2022 00:56:17.615 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@sdsds.com> degerini gir"  parameters:"mail"  parameters:"mail@sdsds.com"}}
+30-08-2022 00:56:23.486 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:56:23.492 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:58:06.940 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+30-08-2022 00:58:06.941 [Gauge] [DEBUG] Adding concepts from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+30-08-2022 00:58:06.941 [Gauge] [INFO] Initializing specs cache with 2 specs
+30-08-2022 00:58:06.941 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+30-08-2022 00:58:06.941 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example.spec
+30-08-2022 00:58:06.942 [Gauge] [INFO] Initializing steps cache with 3 steps
+30-08-2022 00:58:06.942 [Gauge] [INFO] Gauge daemon initialized and listening on port: 65430
+30-08-2022 00:58:06.942 [Gauge] [DEBUG] Watching directory: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs
+30-08-2022 00:58:06.942 [Gauge] [DEBUG] Found 3 files
+30-08-2022 00:58:07.487 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ara\" elementine \"rose\" degerini gir"}
+30-08-2022 00:58:07.487 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<ara> elementine <rose> degerini gir"  parameters:"ara"  parameters:"rose"}}
+30-08-2022 00:58:07.487 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ara\" elementine \"rose\" degerini gir"}
+30-08-2022 00:58:07.487 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<ara> elementine <rose> degerini gir"  parameters:"ara"  parameters:"rose"}}
+30-08-2022 00:58:07.488 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine tıkla"}
+30-08-2022 00:58:07.488 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<key> elementine tıkla"  parameters:"key"}}
+30-08-2022 00:58:07.488 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine tıkla"}
+30-08-2022 00:58:07.488 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<key> elementine tıkla"  parameters:"key"}}
+30-08-2022 00:58:07.488 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine <text> degerini gir"}
+30-08-2022 00:58:07.488 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<key> elementine <text> degerini gir"  parameters:"key"  parameters:"text"}}
+30-08-2022 00:58:07.488 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine <text> degerini gir"}
+30-08-2022 00:58:07.488 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<key> elementine <text> degerini gir"  parameters:"key"  parameters:"text"}}
+30-08-2022 00:58:07.637 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"sds\" degerini gir"}
+30-08-2022 00:58:07.637 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <sds> degerini gir"  parameters:"password"  parameters:"sds"}}
+30-08-2022 00:58:07.638 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"giris\" elementine tıkla"}
+30-08-2022 00:58:07.639 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<giris> elementine tıkla"  parameters:"giris"}}
+30-08-2022 00:58:07.640 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"hata\" elementini kontrol et"}
+30-08-2022 00:58:07.640 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<hata> elementini kontrol et"  parameters:"hata"}}
+30-08-2022 00:58:07.641 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementi üzerinde dur"}
+30-08-2022 00:58:07.641 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementi üzerinde dur"  parameterizedStepValue:"<key> elementi üzerinde dur"  parameters:"key"}}
+30-08-2022 00:58:07.641 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementini kontrol et"}
+30-08-2022 00:58:07.641 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<key> elementini kontrol et"  parameters:"key"}}
+30-08-2022 00:58:07.642 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ok\" elementine tıkla"}
+30-08-2022 00:58:07.642 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<ok> elementine tıkla"  parameters:"ok"}}
+30-08-2022 00:58:07.643 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Login"}
+30-08-2022 00:58:07.644 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Login"  parameterizedStepValue:"Login"}}
+30-08-2022 00:58:07.644 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"rasgele bir ürünü favoriye al kaydet"}
+30-08-2022 00:58:07.644 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"rasgele bir ürünü favoriye al kaydet"  parameterizedStepValue:"rasgele bir ürünü favoriye al kaydet"}}
+30-08-2022 00:58:07.644 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"favori ürünü kontrol et ve sil"}
+30-08-2022 00:58:07.644 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"favori ürünü kontrol et ve sil"  parameterizedStepValue:"favori ürünü kontrol et ve sil"}}
+30-08-2022 00:58:07.645 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Open Site"}
+30-08-2022 00:58:07.645 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Open Site"  parameterizedStepValue:"Open Site"}}
+30-08-2022 00:58:07.645 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Anasayfa test"}
+30-08-2022 00:58:07.646 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Anasayfa test"  parameterizedStepValue:"Anasayfa test"}}
+30-08-2022 00:58:07.646 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"bekle"}
+30-08-2022 00:58:07.646 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"bekle"  parameterizedStepValue:"bekle"}}
+30-08-2022 00:58:07.646 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"test"}
+30-08-2022 00:58:07.646 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"test"  parameterizedStepValue:"test"}}
+30-08-2022 00:58:07.675 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Login"}
+30-08-2022 00:58:07.675 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Login"  parameterizedStepValue:"Login"}}
+30-08-2022 00:58:07.676 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"myfavorites\" elementine tıkla"}
+30-08-2022 00:58:07.677 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<myfavorites> elementine tıkla"  parameters:"myfavorites"}}
+30-08-2022 00:58:07.678 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"aratik\" elementine tıkla"}
+30-08-2022 00:58:07.678 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<aratik> elementine tıkla"  parameters:"aratik"}}
+30-08-2022 00:58:07.681 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"singin\" elementi üzerinde dur"}
+30-08-2022 00:58:07.681 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementi üzerinde dur"  parameterizedStepValue:"<singin> elementi üzerinde dur"  parameters:"singin"}}
+30-08-2022 00:58:07.682 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"singinlink\" elementine tıkla"}
+30-08-2022 00:58:07.682 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<singinlink> elementine tıkla"  parameters:"singinlink"}}
+30-08-2022 00:58:07.682 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@sdsds.com\" degerini gir"}
+30-08-2022 00:58:07.682 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@sdsds.com> degerini gir"  parameters:"mail"  parameters:"mail@sdsds.com"}}
+02-09-2022 00:23:33.128 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+02-09-2022 00:23:33.128 [Gauge] [DEBUG] Adding concepts from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+02-09-2022 00:23:33.133 [Gauge] [INFO] Initializing specs cache with 2 specs
+02-09-2022 00:23:33.133 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+02-09-2022 00:23:33.133 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example.spec
+02-09-2022 00:23:33.133 [Gauge] [INFO] Initializing steps cache with 3 steps
+02-09-2022 00:23:33.133 [Gauge] [INFO] Gauge daemon initialized and listening on port: 56274
+02-09-2022 00:23:33.134 [Gauge] [DEBUG] Watching directory: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs
+02-09-2022 00:23:33.134 [Gauge] [DEBUG] Found 3 files
+02-09-2022 00:23:33.832 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Open Site"}
+02-09-2022 00:23:33.833 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Open Site"  parameterizedStepValue:"Open Site"}}
+02-09-2022 00:23:33.954 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine tıkla"}
+02-09-2022 00:23:33.954 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<key> elementine tıkla"  parameters:"key"}}
+02-09-2022 00:23:33.955 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine <text> degerini gir"}
+02-09-2022 00:23:33.955 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<key> elementine <text> degerini gir"  parameters:"key"  parameters:"text"}}
+02-09-2022 00:23:33.955 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementi üzerinde dur"}
+02-09-2022 00:23:33.955 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementi üzerinde dur"  parameterizedStepValue:"<key> elementi üzerinde dur"  parameters:"key"}}
+02-09-2022 00:23:33.955 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementini kontrol et"}
+02-09-2022 00:23:33.955 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<key> elementini kontrol et"  parameters:"key"}}
+02-09-2022 00:23:33.955 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"rasgele bir ürünü favoriye al kaydet"}
+02-09-2022 00:23:33.955 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"rasgele bir ürünü favoriye al kaydet"  parameterizedStepValue:"rasgele bir ürünü favoriye al kaydet"}}
+02-09-2022 00:23:33.956 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"favori ürünü kontrol et ve sil"}
+02-09-2022 00:23:33.956 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"favori ürünü kontrol et ve sil"  parameterizedStepValue:"favori ürünü kontrol et ve sil"}}
+02-09-2022 00:23:33.978 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"test"}
+02-09-2022 00:23:33.978 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"test"  parameterizedStepValue:"test"}}
+02-09-2022 00:23:33.980 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Anasayfa test"}
+02-09-2022 00:23:33.980 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Anasayfa test"  parameterizedStepValue:"Anasayfa test"}}
+02-09-2022 00:23:33.981 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"bekle"}
+02-09-2022 00:23:33.981 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"bekle"  parameterizedStepValue:"bekle"}}
+02-09-2022 00:23:33.982 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"singin\" elementi üzerinde dur"}
+02-09-2022 00:23:33.982 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementi üzerinde dur"  parameterizedStepValue:"<singin> elementi üzerinde dur"  parameters:"singin"}}
+02-09-2022 00:23:33.983 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"singinlink\" elementine tıkla"}
+02-09-2022 00:23:33.983 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<singinlink> elementine tıkla"  parameters:"singinlink"}}
+02-09-2022 00:23:33.984 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@sdsds.com\" degerini gir"}
+02-09-2022 00:23:33.984 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@sdsds.com> degerini gir"  parameters:"mail"  parameters:"mail@sdsds.com"}}
+02-09-2022 00:23:33.985 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"sds\" degerini gir"}
+02-09-2022 00:23:33.985 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <sds> degerini gir"  parameters:"password"  parameters:"sds"}}
+02-09-2022 00:23:33.985 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"giris\" elementine tıkla"}
+02-09-2022 00:23:33.985 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<giris> elementine tıkla"  parameters:"giris"}}
+02-09-2022 00:23:33.986 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"hata\" elementini kontrol et"}
+02-09-2022 00:23:33.986 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<hata> elementini kontrol et"  parameters:"hata"}}
+02-09-2022 00:23:33.987 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ok\" elementine tıkla"}
+02-09-2022 00:23:33.987 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<ok> elementine tıkla"  parameters:"ok"}}
+02-09-2022 00:23:33.988 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Login"}
+02-09-2022 00:23:33.988 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Login"  parameterizedStepValue:"Login"}}
+02-09-2022 00:23:34.034 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Login"}
+02-09-2022 00:23:34.034 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Login"  parameterizedStepValue:"Login"}}
+02-09-2022 00:23:34.035 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"myfavorites\" elementine tıkla"}
+02-09-2022 00:23:34.035 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<myfavorites> elementine tıkla"  parameters:"myfavorites"}}
+02-09-2022 00:23:34.036 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ara\" elementine \"rose\" degerini gir"}
+02-09-2022 00:23:34.036 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<ara> elementine <rose> degerini gir"  parameters:"ara"  parameters:"rose"}}
+02-09-2022 00:23:34.038 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"aratik\" elementine tıkla"}
+02-09-2022 00:23:34.038 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<aratik> elementine tıkla"  parameters:"aratik"}}
+02-09-2022 00:23:50.761 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"singin\" elementi üzerinde dur"}
+02-09-2022 00:23:50.761 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} elementi üzerinde dur"  parameterizedStepValue:"* <singin> elementi üzerinde dur"  parameters:"singin"}}
+02-09-2022 00:23:50.762 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"singinlink\" elementine tıkla"}
+02-09-2022 00:23:50.762 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} elementine tıkla"  parameterizedStepValue:"* <singinlink> elementine tıkla"  parameters:"singinlink"}}
+02-09-2022 00:23:50.762 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"mail\" elementine \"mail@gmail.com\" degerini gir"}
+02-09-2022 00:23:50.762 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} elementine {} degerini gir"  parameterizedStepValue:"* <mail> elementine <mail@gmail.com> degerini gir"  parameters:"mail"  parameters:"mail@gmail.com"}}
+02-09-2022 00:23:50.762 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"password\" elementine \"123456789\" degerini gir"}
+02-09-2022 00:23:50.762 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} elementine {} degerini gir"  parameterizedStepValue:"* <password> elementine <123456789> degerini gir"  parameters:"password"  parameters:"123456789"}}
+02-09-2022 00:23:50.763 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"giris\" elementine tıkla"}
+02-09-2022 00:23:50.763 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} elementine tıkla"  parameterizedStepValue:"* <giris> elementine tıkla"  parameters:"giris"}}
+02-09-2022 00:23:50.763 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"myaccount\" elementini kontrol et"}
+02-09-2022 00:23:50.763 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} elementini kontrol et"  parameterizedStepValue:"* <myaccount> elementini kontrol et"  parameters:"myaccount"}}
+02-09-2022 00:23:50.764 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@gmail.com\" degerini gir"}
+02-09-2022 00:23:50.764 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@gmail.com> degerini gir"  parameters:"mail"  parameters:"mail@gmail.com"}}
+02-09-2022 00:23:50.764 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"123456789\" degerini gir"}
+02-09-2022 00:23:50.764 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <123456789> degerini gir"  parameters:"password"  parameters:"123456789"}}
+02-09-2022 00:27:09.951 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"myaccount\" elementini kontrol et"}
+02-09-2022 00:27:09.952 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<myaccount> elementini kontrol et"  parameters:"myaccount"}}
+02-09-2022 00:31:53.753 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"gkhnznkldk@gmail.com\" degerini gir"}
+02-09-2022 00:31:53.753 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <gkhnznkldk@gmail.com> degerini gir"  parameters:"mail"  parameters:"gkhnznkldk@gmail.com"}}
+02-09-2022 00:31:55.707 [Gauge] [DEBUG] Concept file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+02-09-2022 00:31:55.708 [Gauge] [DEBUG] Concept file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+02-09-2022 00:32:00.594 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"Ad1n1k0ym4\" degerini gir"}
+02-09-2022 00:32:00.594 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <Ad1n1k0ym4> degerini gir"  parameters:"password"  parameters:"Ad1n1k0ym4"}}
+02-09-2022 00:32:00.594 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"Ad1n1k0ym4\" degerini gir"}
+02-09-2022 00:32:00.594 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <Ad1n1k0ym4> degerini gir"  parameters:"password"  parameters:"Ad1n1k0ym4"}}
+02-09-2022 00:32:26.497 [Gauge] [DEBUG] Concept file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+02-09-2022 00:32:26.497 [Gauge] [DEBUG] Concept file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+02-09-2022 23:32:47.881 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+02-09-2022 23:32:47.881 [Gauge] [DEBUG] Adding concepts from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+02-09-2022 23:32:47.887 [Gauge] [INFO] Initializing specs cache with 2 specs
+02-09-2022 23:32:47.887 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+02-09-2022 23:32:47.887 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example.spec
+02-09-2022 23:32:47.887 [Gauge] [INFO] Initializing steps cache with 3 steps
+02-09-2022 23:32:47.888 [Gauge] [INFO] Gauge daemon initialized and listening on port: 64505
+02-09-2022 23:32:47.889 [Gauge] [DEBUG] Watching directory: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs
+02-09-2022 23:32:47.889 [Gauge] [DEBUG] Found 3 files
+04-09-2022 22:09:48.309 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+04-09-2022 22:09:48.309 [Gauge] [DEBUG] Adding concepts from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+04-09-2022 22:09:48.316 [Gauge] [INFO] Initializing specs cache with 2 specs
+04-09-2022 22:09:48.316 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+04-09-2022 22:09:48.316 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example.spec
+04-09-2022 22:09:48.316 [Gauge] [INFO] Initializing steps cache with 3 steps
+04-09-2022 22:09:48.316 [Gauge] [INFO] Gauge daemon initialized and listening on port: 60482
+04-09-2022 22:09:48.316 [Gauge] [DEBUG] Watching directory: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs
+04-09-2022 22:09:48.317 [Gauge] [DEBUG] Found 3 files
+04-09-2022 22:10:07.650 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"myaccount\" elementini kontrol et"}
+04-09-2022 22:10:07.651 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<myaccount> elementini kontrol et"  parameters:"myaccount"}}
+04-09-2022 22:10:07.699 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine tıkla"}
+04-09-2022 22:10:07.699 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<key> elementine tıkla"  parameters:"key"}}
+04-09-2022 22:10:07.700 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine <text> degerini gir"}
+04-09-2022 22:10:07.701 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<key> elementine <text> degerini gir"  parameters:"key"  parameters:"text"}}
+04-09-2022 22:10:07.701 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementi üzerinde dur"}
+04-09-2022 22:10:07.701 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementi üzerinde dur"  parameterizedStepValue:"<key> elementi üzerinde dur"  parameters:"key"}}
+04-09-2022 22:10:07.701 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementini kontrol et"}
+04-09-2022 22:10:07.701 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<key> elementini kontrol et"  parameters:"key"}}
+04-09-2022 22:10:07.943 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"singin\" elementi üzerinde dur"}
+04-09-2022 22:10:07.943 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementi üzerinde dur"  parameterizedStepValue:"<singin> elementi üzerinde dur"  parameters:"singin"}}
+04-09-2022 22:10:07.944 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"singinlink\" elementine tıkla"}
+04-09-2022 22:10:07.945 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<singinlink> elementine tıkla"  parameters:"singinlink"}}
+04-09-2022 22:10:07.945 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"gkhnznkldk@gmail.com\" degerini gir"}
+04-09-2022 22:10:07.945 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <gkhnznkldk@gmail.com> degerini gir"  parameters:"mail"  parameters:"gkhnznkldk@gmail.com"}}
+04-09-2022 22:10:07.946 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"Ad1n1k0ym4\" degerini gir"}
+04-09-2022 22:10:07.946 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <Ad1n1k0ym4> degerini gir"  parameters:"password"  parameters:"Ad1n1k0ym4"}}
+04-09-2022 22:10:07.947 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"giris\" elementine tıkla"}
+04-09-2022 22:10:07.947 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<giris> elementine tıkla"  parameters:"giris"}}
+04-09-2022 22:10:11.027 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ara\" elementine \"rose\" degerini gir"}
+04-09-2022 22:10:11.027 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<ara> elementine <rose> degerini gir"  parameters:"ara"  parameters:"rose"}}
+04-09-2022 22:10:11.329 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Open Site"}
+04-09-2022 22:10:11.329 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Open Site"  parameterizedStepValue:"Open Site"}}
+04-09-2022 22:10:11.330 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"rasgele bir ürünü favoriye al kaydet"}
+04-09-2022 22:10:11.330 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"rasgele bir ürünü favoriye al kaydet"  parameterizedStepValue:"rasgele bir ürünü favoriye al kaydet"}}
+04-09-2022 22:10:11.330 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"favori ürünü kontrol et ve sil"}
+04-09-2022 22:10:11.330 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"favori ürünü kontrol et ve sil"  parameterizedStepValue:"favori ürünü kontrol et ve sil"}}
+04-09-2022 22:10:11.331 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"test"}
+04-09-2022 22:10:11.331 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"test"  parameterizedStepValue:"test"}}
+04-09-2022 22:10:11.331 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Anasayfa test"}
+04-09-2022 22:10:11.332 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Anasayfa test"  parameterizedStepValue:"Anasayfa test"}}
+04-09-2022 22:10:11.332 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"bekle"}
+04-09-2022 22:10:11.332 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"bekle"  parameterizedStepValue:"bekle"}}
+04-09-2022 22:10:11.333 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@gmail.com\" degerini gir"}
+04-09-2022 22:10:11.333 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@gmail.com> degerini gir"  parameters:"mail"  parameters:"mail@gmail.com"}}
+04-09-2022 22:10:11.334 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"123456789\" degerini gir"}
+04-09-2022 22:10:11.334 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <123456789> degerini gir"  parameters:"password"  parameters:"123456789"}}
+04-09-2022 22:10:11.335 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"hata\" elementini kontrol et"}
+04-09-2022 22:10:11.335 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<hata> elementini kontrol et"  parameters:"hata"}}
+04-09-2022 22:10:11.336 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ok\" elementine tıkla"}
+04-09-2022 22:10:11.336 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<ok> elementine tıkla"  parameters:"ok"}}
+04-09-2022 22:10:11.336 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Login"}
+04-09-2022 22:10:11.337 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Login"  parameterizedStepValue:"Login"}}
+04-09-2022 22:10:11.392 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Login"}
+04-09-2022 22:10:11.393 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Login"  parameterizedStepValue:"Login"}}
+04-09-2022 22:10:11.418 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"myfavorites\" elementine tıkla"}
+04-09-2022 22:10:11.419 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<myfavorites> elementine tıkla"  parameters:"myfavorites"}}
+04-09-2022 22:10:11.419 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"aratik\" elementine tıkla"}
+04-09-2022 22:10:11.419 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<aratik> elementine tıkla"  parameters:"aratik"}}
+04-09-2022 22:38:47.067 [Gauge] [INFO] Closing connection [127.0.0.1:60483] cause: read tcp 127.0.0.1:60482->127.0.0.1:60483: wsarecv: Varolan bir bağlantı uzaktaki bir ana bilgisayar tarafından zorla kapatıldı.
+04-09-2022 22:38:47.271 [Gauge] [CRITICAL] Killing Gauge daemon. Parent process with pid 19412 has terminated.
+07-09-2022 14:14:57.507 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+07-09-2022 14:14:57.508 [Gauge] [DEBUG] Adding concepts from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+07-09-2022 14:14:57.515 [Gauge] [INFO] Initializing specs cache with 2 specs
+07-09-2022 14:14:57.515 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+07-09-2022 14:14:57.515 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example.spec
+07-09-2022 14:14:57.515 [Gauge] [INFO] Initializing steps cache with 3 steps
+07-09-2022 14:14:57.515 [Gauge] [INFO] Gauge daemon initialized and listening on port: 61033
+07-09-2022 14:14:57.515 [Gauge] [DEBUG] Watching directory: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs
+07-09-2022 14:14:57.516 [Gauge] [DEBUG] Found 3 files
+07-09-2022 14:35:11.142 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+07-09-2022 14:35:11.142 [Gauge] [DEBUG] Adding concepts from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+07-09-2022 14:35:11.147 [Gauge] [INFO] Initializing specs cache with 2 specs
+07-09-2022 14:35:11.147 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example.spec
+07-09-2022 14:35:11.147 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+07-09-2022 14:35:11.147 [Gauge] [INFO] Initializing steps cache with 3 steps
+07-09-2022 14:35:11.147 [Gauge] [INFO] Gauge daemon initialized and listening on port: 59950
+07-09-2022 14:35:11.148 [Gauge] [DEBUG] Watching directory: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs
+07-09-2022 14:35:11.148 [Gauge] [DEBUG] Found 3 files
+07-09-2022 22:10:59.769 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine tıkla"}
+07-09-2022 22:10:59.771 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<key> elementine tıkla"  parameters:"key"}}
+07-09-2022 22:10:59.772 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"singin\" elementi üzerinde dur"}
+07-09-2022 22:10:59.772 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} elementi üzerinde dur"  parameterizedStepValue:"* <singin> elementi üzerinde dur"  parameters:"singin"}}
+07-09-2022 22:10:59.772 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"singinlink\" elementine tıkla"}
+07-09-2022 22:10:59.772 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} elementine tıkla"  parameterizedStepValue:"* <singinlink> elementine tıkla"  parameters:"singinlink"}}
+07-09-2022 22:10:59.772 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"mail\" elementine \"gkhnznkldk@gmail.com\" degerini gir"}
+07-09-2022 22:10:59.773 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} elementine {} degerini gir"  parameterizedStepValue:"* <mail> elementine <gkhnznkldk@gmail.com> degerini gir"  parameters:"mail"  parameters:"gkhnznkldk@gmail.com"}}
+07-09-2022 22:10:59.773 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"password\" elementine \"Ad1n1k0ym4\" degerini gir"}
+07-09-2022 22:10:59.773 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} elementine {} degerini gir"  parameterizedStepValue:"* <password> elementine <Ad1n1k0ym4> degerini gir"  parameters:"password"  parameters:"Ad1n1k0ym4"}}
+07-09-2022 22:10:59.773 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"giris\" elementine tıkla"}
+07-09-2022 22:10:59.773 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} elementine tıkla"  parameterizedStepValue:"* <giris> elementine tıkla"  parameters:"giris"}}
+07-09-2022 22:10:59.773 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"* \"myaccount\" elementini kontrol et"}
+07-09-2022 22:10:59.773 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"* {} elementini kontrol et"  parameterizedStepValue:"* <myaccount> elementini kontrol et"  parameters:"myaccount"}}
+07-09-2022 22:10:59.773 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine <text> degerini gir"}
+07-09-2022 22:10:59.773 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<key> elementine <text> degerini gir"  parameters:"key"  parameters:"text"}}
+07-09-2022 22:10:59.773 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Open Site"}
+07-09-2022 22:10:59.774 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Open Site"  parameterizedStepValue:"Open Site"}}
+07-09-2022 22:10:59.774 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"test"}
+07-09-2022 22:10:59.774 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"test"  parameterizedStepValue:"test"}}
+07-09-2022 22:10:59.774 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"singin\" elementi üzerinde dur"}
+07-09-2022 22:10:59.774 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementi üzerinde dur"  parameterizedStepValue:"<singin> elementi üzerinde dur"  parameters:"singin"}}
+07-09-2022 22:10:59.774 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"singinlink\" elementine tıkla"}
+07-09-2022 22:10:59.774 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<singinlink> elementine tıkla"  parameters:"singinlink"}}
+07-09-2022 22:10:59.774 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@gmail.com\" degerini gir"}
+07-09-2022 22:10:59.774 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@gmail.com> degerini gir"  parameters:"mail"  parameters:"mail@gmail.com"}}
+07-09-2022 22:10:59.775 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"123456789\" degerini gir"}
+07-09-2022 22:10:59.775 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <123456789> degerini gir"  parameters:"password"  parameters:"123456789"}}
+07-09-2022 22:10:59.775 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"giris\" elementine tıkla"}
+07-09-2022 22:10:59.775 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<giris> elementine tıkla"  parameters:"giris"}}
+07-09-2022 22:10:59.775 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"hata\" elementini kontrol et"}
+07-09-2022 22:10:59.775 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<hata> elementini kontrol et"  parameters:"hata"}}
+07-09-2022 22:10:59.775 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ok\" elementine tıkla"}
+07-09-2022 22:10:59.775 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<ok> elementine tıkla"  parameters:"ok"}}
+07-09-2022 22:10:59.775 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementi üzerinde dur"}
+07-09-2022 22:10:59.775 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementi üzerinde dur"  parameterizedStepValue:"<key> elementi üzerinde dur"  parameters:"key"}}
+07-09-2022 22:10:59.775 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Login"}
+07-09-2022 22:10:59.775 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Login"  parameterizedStepValue:"Login"}}
+07-09-2022 22:10:59.776 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"myfavorites\" elementine tıkla"}
+07-09-2022 22:10:59.776 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<myfavorites> elementine tıkla"  parameters:"myfavorites"}}
+07-09-2022 22:10:59.776 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ara\" elementine \"rose\" degerini gir"}
+07-09-2022 22:10:59.776 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<ara> elementine <rose> degerini gir"  parameters:"ara"  parameters:"rose"}}
+07-09-2022 22:10:59.776 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"aratik\" elementine tıkla"}
+07-09-2022 22:10:59.776 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<aratik> elementine tıkla"  parameters:"aratik"}}
+07-09-2022 22:10:59.776 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"rasgele bir ürünü favoriye al kaydet"}
+07-09-2022 22:10:59.776 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"rasgele bir ürünü favoriye al kaydet"  parameterizedStepValue:"rasgele bir ürünü favoriye al kaydet"}}
+07-09-2022 22:10:59.776 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"favori ürünü kontrol et ve sil"}
+07-09-2022 22:10:59.776 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"favori ürünü kontrol et ve sil"  parameterizedStepValue:"favori ürünü kontrol et ve sil"}}
+07-09-2022 22:10:59.776 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"bekle"}
+07-09-2022 22:10:59.777 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"bekle"  parameterizedStepValue:"bekle"}}
+07-09-2022 22:10:59.777 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@sdsds.com\" degerini gir"}
+07-09-2022 22:10:59.777 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@sdsds.com> degerini gir"  parameters:"mail"  parameters:"mail@sdsds.com"}}
+07-09-2022 22:10:59.777 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"sds\" degerini gir"}
+07-09-2022 22:10:59.777 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <sds> degerini gir"  parameters:"password"  parameters:"sds"}}
+07-09-2022 22:10:59.777 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementini kontrol et"}
+07-09-2022 22:10:59.777 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<key> elementini kontrol et"  parameters:"key"}}
+07-09-2022 22:10:59.801 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Anasayfa test"}
+07-09-2022 22:10:59.802 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Anasayfa test"  parameterizedStepValue:"Anasayfa test"}}
+09-09-2022 16:50:27.249 [Gauge] [INFO] Initializing concepts cache with 1 concepts
+09-09-2022 16:50:27.249 [Gauge] [DEBUG] Adding concepts from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+09-09-2022 16:50:27.254 [Gauge] [INFO] Initializing specs cache with 2 specs
+09-09-2022 16:50:27.254 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example.spec
+09-09-2022 16:50:27.254 [Gauge] [DEBUG] Adding specs from C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+09-09-2022 16:50:27.254 [Gauge] [INFO] Initializing steps cache with 3 steps
+09-09-2022 16:50:27.254 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53690
+09-09-2022 16:50:27.254 [Gauge] [DEBUG] Watching directory: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs
+09-09-2022 16:50:27.254 [Gauge] [DEBUG] Found 3 files
+09-09-2022 17:15:35.740 [Gauge] [DEBUG] Spec file removed: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example1.spec
+09-09-2022 17:16:07.838 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"123456789\" degerini gir"}
+09-09-2022 17:16:07.838 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <123456789> degerini gir"  parameters:"password"  parameters:"123456789"}}
+09-09-2022 17:16:07.844 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine tıkla"}
+09-09-2022 17:16:07.844 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<key> elementine tıkla"  parameters:"key"}}
+09-09-2022 17:16:07.844 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementine <text> degerini gir"}
+09-09-2022 17:16:07.844 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<key> elementine <text> degerini gir"  parameters:"key"  parameters:"text"}}
+09-09-2022 17:16:08.140 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Open Site"}
+09-09-2022 17:16:08.140 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Open Site"  parameterizedStepValue:"Open Site"}}
+09-09-2022 17:16:08.140 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementi üzerinde dur"}
+09-09-2022 17:16:08.141 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementi üzerinde dur"  parameterizedStepValue:"<key> elementi üzerinde dur"  parameters:"key"}}
+09-09-2022 17:16:08.141 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"<key> elementini kontrol et"}
+09-09-2022 17:16:08.141 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<key> elementini kontrol et"  parameters:"key"}}
+09-09-2022 17:16:08.141 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"rasgele bir ürünü favoriye al kaydet"}
+09-09-2022 17:16:08.141 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"rasgele bir ürünü favoriye al kaydet"  parameterizedStepValue:"rasgele bir ürünü favoriye al kaydet"}}
+09-09-2022 17:16:08.142 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"favori ürünü kontrol et ve sil"}
+09-09-2022 17:16:08.142 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"favori ürünü kontrol et ve sil"  parameterizedStepValue:"favori ürünü kontrol et ve sil"}}
+09-09-2022 17:16:08.142 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"test"}
+09-09-2022 17:16:08.142 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"test"  parameterizedStepValue:"test"}}
+09-09-2022 17:16:08.142 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Anasayfa test"}
+09-09-2022 17:16:08.143 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Anasayfa test"  parameterizedStepValue:"Anasayfa test"}}
+09-09-2022 17:16:08.143 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"bekle"}
+09-09-2022 17:16:08.143 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"bekle"  parameterizedStepValue:"bekle"}}
+09-09-2022 17:16:08.143 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"singin\" elementi üzerinde dur"}
+09-09-2022 17:16:08.143 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementi üzerinde dur"  parameterizedStepValue:"<singin> elementi üzerinde dur"  parameters:"singin"}}
+09-09-2022 17:16:08.143 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"singinlink\" elementine tıkla"}
+09-09-2022 17:16:08.144 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<singinlink> elementine tıkla"  parameters:"singinlink"}}
+09-09-2022 17:16:08.144 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"mail@gmail.com\" degerini gir"}
+09-09-2022 17:16:08.144 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <mail@gmail.com> degerini gir"  parameters:"mail"  parameters:"mail@gmail.com"}}
+09-09-2022 17:16:08.145 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"giris\" elementine tıkla"}
+09-09-2022 17:16:08.146 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<giris> elementine tıkla"  parameters:"giris"}}
+09-09-2022 17:16:08.146 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"hata\" elementini kontrol et"}
+09-09-2022 17:16:08.146 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<hata> elementini kontrol et"  parameters:"hata"}}
+09-09-2022 17:16:08.146 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ok\" elementine tıkla"}
+09-09-2022 17:16:08.146 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<ok> elementine tıkla"  parameters:"ok"}}
+09-09-2022 17:16:08.146 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"Login"}
+09-09-2022 17:16:08.147 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Login"  parameterizedStepValue:"Login"}}
+09-09-2022 17:16:08.177 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:" Login"}
+09-09-2022 17:16:08.178 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"Login"  parameterizedStepValue:"Login"}}
+09-09-2022 17:16:08.178 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"myfavorites\" elementine tıkla"}
+09-09-2022 17:16:08.178 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<myfavorites> elementine tıkla"  parameters:"myfavorites"}}
+09-09-2022 17:16:08.178 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"ara\" elementine \"rose\" degerini gir"}
+09-09-2022 17:16:08.178 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<ara> elementine <rose> degerini gir"  parameters:"ara"  parameters:"rose"}}
+09-09-2022 17:16:08.179 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"aratik\" elementine tıkla"}
+09-09-2022 17:16:08.179 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine tıkla"  parameterizedStepValue:"<aratik> elementine tıkla"  parameters:"aratik"}}
+09-09-2022 17:16:34.149 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"myaccount\" elementini kontrol et"}
+09-09-2022 17:16:34.149 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementini kontrol et"  parameterizedStepValue:"<myaccount> elementini kontrol et"  parameters:"myaccount"}}
+09-09-2022 17:16:34.451 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"mail\" elementine \"gkhnznkldk@gmail.com\" degerini gir"}
+09-09-2022 17:16:34.452 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<mail> elementine <gkhnznkldk@gmail.com> degerini gir"  parameters:"mail"  parameters:"gkhnznkldk@gmail.com"}}
+09-09-2022 17:16:34.452 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest  messageId:4  stepValueRequest:{stepText:"\"password\" elementine \"Ad1n1k0ym4\" degerini gir"}
+09-09-2022 17:16:34.452 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse  messageId:4  stepValueResponse:{stepValue:{stepValue:"{} elementine {} degerini gir"  parameterizedStepValue:"<password> elementine <Ad1n1k0ym4> degerini gir"  parameters:"password"  parameters:"Ad1n1k0ym4"}}
+09-09-2022 18:04:49.978 [Gauge] [DEBUG] Concept file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\consept.cpt
+09-09-2022 18:04:49.979 [Gauge] [DEBUG] Spec file added / modified: C:\Users\gokhan\IdeaProjects\Gauge-Selenium\specs\example.spec

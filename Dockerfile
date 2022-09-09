@@ -17,3 +17,6 @@ RUN gauge install java && \
 
 ENV PATH=$HOME/.gauge:$PATH
 
+RUN git clone https://github.com/zgkhn/Gauge-Selenium.git
+
+CMD ["mvn", "gauge:execute", "-DspecsDir=specs", "-DinParallel=true"]

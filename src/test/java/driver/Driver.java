@@ -16,12 +16,20 @@ public class Driver {
     // Holds the WebDriver instance
     public static WebDriver webDriver;
     static final String HOST_URL = "http://localhost:4444/wd/hup";
-    public static String platformdocker = "docker";
+    public static Boolean platformdocker = true;
     @BeforeScenario
     public void initializeDriver() throws MalformedURLException {
 
+        if (platformdocker) {
 
-               webDriver = DriverFactory.getDriver();
+            WebDriverManager.chromedriver().setup();
+            ChromeOptions options = new ChromeOptions();
+            webDriver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
+
+        } else  {
+            webDriver = DriverFactory.getDriver();
+        }
+
 
 
 
