@@ -15,7 +15,7 @@ public class Driver {
     // Holds the WebDriver instance
     public static WebDriver webDriver;
 
-    public static Boolean platformdocker = false;
+    public static Boolean platformdocker = true;
     @BeforeScenario
     public void initializeDriver() throws MalformedURLException {
         if (platformdocker) {
