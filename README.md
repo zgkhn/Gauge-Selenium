@@ -1,25 +1,31 @@
-🚀 Gauge + Selenium Test Otomasyon Projesi
+# 🚀 Gauge + Selenium Test Otomasyon Projesi
 
-Bu proje, Gauge test otomasyon çerçevesi ile Selenium kullanarak web tarayıcısında otomatik testler çalıştırmak için bir şablon sunar.
+Bu proje, **Gauge** test otomasyon çerçevesi ile **Selenium** kullanarak web tarayıcısında otomatik testler çalıştırmak için bir şablon sunar.
 
-📌 Kurulum
+---
 
-🔹 Şablonu Yükleme
+## 📌 Kurulum
 
+### 🔹 Şablonu Yükleme
+
+```bash
 gauge --install java_maven_selenium
+```
 
-🛠 Özellikler
+---
 
-🌍 Web Otomasyonu: Selenium ile web uygulamalarında otomatik testler çalıştırılır.
+## 🛠 Özellikler
 
-📝 Spesifikasyon Tabanlı Testler: Test senaryoları Gauge'ın doğal dili destekleyen yapısı ile yazılır.
+- **🌍 Web Otomasyonu:** Selenium ile web uygulamalarında otomatik testler çalıştırılır.
+- **📝 Spesifikasyon Tabanlı Testler:** Test senaryoları **Gauge**'ın doğal dili destekleyen yapısı ile yazılır.
+- **🔄 Modüler Yapı:** Test kodları **Page Object Model (POM)** ile düzenlenmiştir.
+- **📊 Test Raporları:** Gauge, test çalıştırmalarının detaylı raporlarını oluşturur.
 
-🔄 Modüler Yapı: Test kodları Page Object Model (POM) ile düzenlenmiştir.
+---
 
-📊 Test Raporları: Gauge, test çalıştırmalarının detaylı raporlarını oluşturur.
+## 🏗 Proje Yapısı
 
-🏗 Proje Yapısı
-
+```
 ├── specs               # Test senaryoları (Specification dosyaları)
 ├── src/test/java       # Test implementasyonları
 │   ├── Pages           # Sayfa nesneleri (POM yapısı)
@@ -28,11 +34,15 @@ gauge --install java_maven_selenium
 │
 ├── env/default        # Ortam ayarları
 └── pom.xml            # Maven bağımlılıkları
+```
 
-🖊 Spesifikasyon Tanımlama
+---
 
-Örnek Test Senaryosu:
+## 🖊 Spesifikasyon Tanımlama
 
+**Örnek Test Senaryosu:**
+
+```gauge
 Mizu Test
 ==========================
 
@@ -45,22 +55,37 @@ Scenario: Hatalı Login Testi
 * "giris" elementine tıkla
 * "hata" elementini kontrol et
 * "ok" elementine tıkla
+```
 
-Testleri Çalıştırma
+---
 
+## Testleri Çalıştırma
+
+```bash
 gauge run specs
+```
 
-🎯 Belirli Senaryoyu Çalıştırma
+### 🎯 Belirli Senaryoyu Çalıştırma
 
+```bash
 gauge run specs/login.spec
+```
 
-🤝 Katkıda Bulunma
+---
+
+---
+
+## 🤝 Katkıda Bulunma
 
 Projeye katkıda bulunmak isterseniz, fork edip pull request gönderebilirsiniz. 🙌
 
-📄 Lisans
+---
 
-Bu proje MIT Lisansı ile lisanslanmıştır.
+## 📄 Lisans
 
-🔗 GitHub Repo: Gauge-Selenium
+Bu proje **MIT Lisansı** ile lisanslanmıştır.
+
+---
+
+🔗 **GitHub Repo:** [Gauge-Selenium](https://github.com/zgkhn/Gauge-Selenium.git)
 
